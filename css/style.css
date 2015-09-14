@@ -1,0 +1,27 @@
+@font-face {
+    font-family: nexa; src: url(../fonts/NexaBold.otf);
+}
+
+body{
+    font-family: nexa !important;
+    font-weight: bold;
+    color: #a9b6bd !important;
+}
+
+.button{
+    width: 100%;
+    background-color: #363736;
+    color: white;
+    border: none;
+    height: 30px;
+}
+
+#email, #name, body > div.container > div:nth-child(2) > div > form > div:nth-child(3) > div > textarea{
+    background-color: #00688c;
+    color: white !important;
+}
+
+h3{
+    margin:0px;
+    padding: 0px;
+}
