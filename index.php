@@ -4,9 +4,9 @@ if (isset($_POST["submit"])) {
     $email = $_POST['email'];
     $message = $_POST['message'];
 //    $human = intval($_POST['human']);
-    $from = 'Demo Contact Form';
-    $to = 'loyenrique1@gmail.com';
-    $subject = "Message from Contact Demo ";
+    $from = 'mirmidonesgroup.com';
+    $to = 'rdiaz@mirmidonesgroup.com';
+    $subject = "Message from Contact Form ";
 
     $body ="From: $name\n E-Mail: $email\n Message:\n $message";
     // Check if name has been entered
@@ -28,7 +28,7 @@ if (isset($_POST["submit"])) {
 //        $errHuman = 'Your anti-spam is incorrect';
 //    }
 // If there are no errors, send the email
-    if (!isset($errName) && !isset($errEmail) && !isset($errMessage) && !isset($errHuman)) {
+    if (!isset($errName) && !isset($errEmail) && !isset($errMessage) /*&& !isset($errHuman)*/) {
         if (mail ($to, $subject, $body, $from)) {
             $result='<div class="alert alert-success">Thank You! We will be in touch.</div>';
         } else {
