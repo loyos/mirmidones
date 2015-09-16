@@ -17,8 +17,8 @@ body{
 }
 
 #email, #name, body > div.container > div:nth-child(2) > div > form > div:nth-child(3) > div > textarea{
-    background-color: #00688c;
-    color: white !important;
+    background-color: white;
+    color: #a9b6bd !important;
 }
 
 h3{
